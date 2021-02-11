@@ -1,4 +1,3 @@
-
 /**
  * Write a description of class Craps here.
  *
@@ -13,6 +12,9 @@ public class Craps
      */
     public static void main(String[] args)
     {
+        boolean playAgain = true;
+        while(playAgain == true)
+        {
         Die d1 = new Die();
         Die d2 = new Die();
         int total = 0;
@@ -64,5 +66,16 @@ public class Craps
                 System.out.println("You've Lost the Game.  Too bad.");
             }
         }
+        System.out.println("Do you want to play again(y or n)");
+        String ans = in.nextLine();
+        if (ans.equals("y"))
+        {
+            playAgain = true;
+        }
+        else
+        {
+            playAgain = false;
+        }
+    }
     }
 }
