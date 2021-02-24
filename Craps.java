@@ -79,3 +79,18 @@ public class Craps
     }
     }
 }
+
+
+/* 
+
+COMMENTS FROM THE INSTRUCTOR:
+
+The basic functionality of the game is here, and you've got a play
+again option, as required. No instructions were available, however,
+and you didn't include the default (Y/n) option as specified in the
+assignment. Otherwise, not bad!
+
+SCORE: 12/15
+
+*/
+
